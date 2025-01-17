@@ -1,6 +1,4 @@
 import './globals.css'
-
-import type { MetadataRoute } from 'next/server'
 import { Metadata } from 'next'
 
 export default function RootLayout({
