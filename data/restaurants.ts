@@ -55,7 +55,7 @@ export const restaurants = [
     price: 500, // Approximate cost for two people
     distance: 1, // Approximate distance in kilometers from VIT Chennai Campus
     rating: 4.0, // Based on TripAdvisor reviews
-    phones: ["+91 44 2745 1234"], // Example phone number; please verify
+    phones: ["+91 7397 444 387"], // Example phone number; please verify
     zomato: "https://www.zomato.com/chennai/luluva-vandalur",
     swiggy: "https://www.swiggy.com/city/chennai/luluva-restaurant-vandalur-chennai-vit-rest632270"
   }
