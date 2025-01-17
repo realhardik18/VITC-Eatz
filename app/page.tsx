@@ -14,7 +14,7 @@ export default function Home() {
     const filtered = restaurants.filter((restaurant) => {
       const matchesSearch = restaurant.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         restaurant.description.toLowerCase().includes(searchTerm.toLowerCase())
-      const matchesCuisine = selectedCuisine === 'All' || restaurant.cuisine === selectedCuisine
+      const matchesCuisine = selectedCuisine === 'All' || restaurant.cuisines.includes(selectedCuisine)
       return matchesSearch && matchesCuisine
     })
     setFilteredRestaurants(filtered)
