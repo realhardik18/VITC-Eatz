@@ -10,7 +10,7 @@ export default function Header() {
           <h1 className="text-3xl font-extrabold">VITC Eatz</h1>
         </div>
         <Link 
-          href="https://example.com" 
+          href="https://forms.gle/axhnBLQHTD44RHwV6" 
           className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors duration-300"
         >
           Add Your Fav Restaurant
