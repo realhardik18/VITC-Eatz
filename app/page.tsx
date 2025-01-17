@@ -4,6 +4,7 @@ import SearchAndFilter from './components/SearchAndFilter'
 import RestaurantCard from './components/RestaurantCard'
 import { restaurants } from '../data/restaurants'
 import { useState, useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/next'
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -35,6 +36,7 @@ export default function Home() {
           ))}
         </div>
       </main>
+      <Analytics />
     </div>
   )
 }
